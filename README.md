@@ -25,4 +25,4 @@ Results on the test set of CMU-MOSI and CMU-MOSEI dataset. Notation: △ indicat
 
 # Citation
 
-Han, Wei, Hui Chen, Alexander Gelbukh, A. Zadeh, Louis-Philippe Morency and Soujanya Poria. “Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis.” ICMI 2021.
+Han, Wei, Hui Chen, Alexander Gelbukh, A. Zadeh, Louis-Philippe Morency and Soujanya Poria. “[Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis]<https://arxiv.org/abs/2107.13669>” ICMI 2021.
