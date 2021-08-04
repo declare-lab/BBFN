@@ -36,7 +36,7 @@ conda activate BBFN
 cd src
 python main.py --dataset <dataset_name> --data_path <path_to_dataset>
 ```
-We provide a script `src/run.sh` for your reference.
+We provide a script `scripts/run.sh` for your reference.
 
 ## Citation
 Please cite our paper if you find our work useful  for your research:

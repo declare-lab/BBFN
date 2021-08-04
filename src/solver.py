@@ -2,7 +2,6 @@ import torch
 from torch import nn
 import sys
 import models
-import ctc
 import torch.optim as optim
 import numpy as np
 import time
