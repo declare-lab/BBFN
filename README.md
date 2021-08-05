@@ -44,7 +44,7 @@ Please cite our paper if you find our work useful  for your research:
 @article{han2021bi,
   title={Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis},
   author={Han, Wei and Chen, Hui and Gelbukh, Alexander and Zadeh, Amir and Morency, Louis-philippe and Poria, Soujanya},
-  journal={arXiv preprint arXiv:2107.13669},
+  journal={ICMI 2021},
   year={2021}
 }
 ```
