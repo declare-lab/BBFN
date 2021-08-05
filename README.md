@@ -29,7 +29,7 @@ conda activate BBFN
 
 2. Install [CMU Multimodal SDK](https://github.com/A2Zadeh/CMU-MultimodalSDK)
 
-3. Set `sdk_dir` in `src/config.py' to the path of CMU-MultimodalSDK
+3. Set `sdk_dir` in `src/config.py` to the path of CMU-MultimodalSDK
 
 4. Train the model
 ```
