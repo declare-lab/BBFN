@@ -40,7 +40,7 @@ We provide a script `scripts/run.sh` for your reference.
 
 ## Citation
 Please cite our paper if you find our work useful  for your research:
-```
+```bibtex
 @article{han2021bi,
   title={Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis},
   author={Han, Wei and Chen, Hui and Gelbukh, Alexander and Zadeh, Amir and Morency, Louis-philippe and Poria, Soujanya},
