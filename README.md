@@ -2,6 +2,9 @@
 
 This repository contains official implementation of the paper: [Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis (ICMI 2021)](https://arxiv.org/abs/2107.13669)
 
+
+💎 If you would be interested in other multimodal works in our DeCLaRe Lab, please visit the [clustered repository](https://github.com/declare-lab/multimodal-deep-learning)
+
 ## Model Architecture
 
 Overview of our Bi-Bimodal Fusion Network (BBFN). It learns two text-related pairs of representations, text-acoustic and text-visual by enforcing each pair of modalities to complement mutually. Finally, the four (two pairs) head representations are concatenated
