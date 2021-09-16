@@ -255,6 +255,7 @@ class Solver(object):
 
         best_valid = 1e8
         best_mae = 1e8
+        best_epoch = -1
         patience = 20
 
         for epoch in range(1, self.hp.num_epochs+1):
@@ -277,6 +278,7 @@ class Solver(object):
             
 
             if best_valid > val_loss:
+                best_epoch = epoch
                 patience = 20
                 best_valid = val_loss
                 # for ur_funny we don't care about
