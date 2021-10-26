@@ -1,5 +1,7 @@
 # Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis
 
+🔥🔥 BBFN has won the best paper award honourable mention at ICMI 2021! 
+
 This repository contains official implementation of the paper: [Bi-Bimodal Modality Fusion for Correlation-Controlled Multimodal Sentiment Analysis (ICMI 2021)](https://arxiv.org/abs/2107.13669)
 
 
