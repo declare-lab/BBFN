@@ -42,7 +42,7 @@ def eval_mosei_senti(results, truths, exclude_zero=False):
     corr = np.corrcoef(test_preds, test_truth)[0][1]
     mult_a7 = multiclass_acc(test_preds_a7, test_truth_a7)
     mult_a5 = multiclass_acc(test_preds_a5, test_truth_a5)
-    f_score = f1_score((test_preds[non_zeros] > 0), (test_truth[non_zeros] > 0), average='weighted')
+    f_score = f1_score((test_truth[non_zeros] > 0), (test_preds[non_zeros] > 0), average='weighted')
     binary_truth = (test_truth[non_zeros] > 0)
     binary_preds = (test_preds[non_zeros] > 0)
 
