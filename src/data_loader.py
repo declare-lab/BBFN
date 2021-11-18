@@ -102,7 +102,7 @@ def get_loader(hp, config, shuffle=True):
         for sample in batch:
             text = " ".join(sample[0][3])
             encoded_bert_sent = bert_tokenizer.encode_plus(
-                text, max_length=SENT_LEN+2, add_special_tokens=True, pad_to_max_length=True)
+                text, max_length=SENT_LEN+2, add_special_tokens=True, truncation=True, padding='max_length')
             bert_details.append(encoded_bert_sent)
 
         # Bert things are batch_first

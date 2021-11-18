@@ -94,7 +94,7 @@ class MOSI:
                 print("Labels have been downloaded previously.")
             
             # define your different modalities - refer to the filenames of the CSD files
-            visual_field = 'CMU_MOSI_VisualFacet_4.1'
+            visual_field = 'CMU_MOSI_Visual_Facet_41'
             acoustic_field = 'CMU_MOSI_COVAREP'
             text_field = 'CMU_MOSI_TimestampedWords'
 

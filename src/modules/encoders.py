@@ -160,7 +160,7 @@ class SeqEncoder(nn.Module):
     def forward_enc(self, input_l, input_a, input_v, lengths=None, mask=None):
         batch_size = lengths.size(0)
         if lengths is not None: 
-            mask = torch.arange(lengths.max()).repeat(batch_size, 1) < lengths.unsqueeze(-1)
+            mask = torch.arange(lengths.max()).repeat(batch_size, 1).cuda() < lengths.unsqueeze(-1)
             mask = mask.unsqueeze(-1).to(torch.float)
         elif mask:  # use_bert
             lengths = mask.sum(1)

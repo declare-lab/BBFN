@@ -143,6 +143,7 @@ if torch.cuda.is_available():
         torch.cuda.manual_seed_all(args.seed)
         torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
+
         torch.backends.cudnn.deterministic = True
         torch.backends.cudnn.benchmark = False
         use_cuda = True

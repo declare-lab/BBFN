@@ -1,1 +1,4 @@
-./src/__pycache__
+__pycache__
+*.sh
+datasets
+pre_trained_models
