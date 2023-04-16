@@ -58,7 +58,7 @@ dependencies:
   - sqlite=3.30.1=h7b6447c_0
   - srsly=0.2.0=py37he1b5a44_0
   - tk=8.6.10=hed695b0_1
-  - torchvision=0.4.2=py37_cu101
+  - torchvision
   - wasabi=0.4.0=py_0
   - wheel=0.33.6=py37_0
   - xz=5.2.4=h516909a_1002
